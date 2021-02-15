@@ -90,8 +90,39 @@ p {
     padding-right: 9px;
     padding-bottom: 5px;
     font-family: fantasy;
-    font-size: 20px;}
-.links:hover {background-color: black;}
-a {text-decoration: none;}
-.article:hover {color: aqua;}
-html {scroll-behavior: smooth;}
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article:hover {
+    color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+.article:hover {
+    color: darkblue;
+}
+#writings a {text-shadow: none !important;
+text-decoration: underline!important;
+color: darkgreen !important;}
+#contact {background: aqua;}
+#contact iframe {width: 100%;}
+.contact_1 h3 {display: inline;}
+.contact_1 a {color: white;
+text-shadow: none;}
